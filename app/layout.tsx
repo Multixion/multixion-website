@@ -49,7 +49,7 @@ export const metadata: Metadata = {
         images: [
             {
                 url: "https://raw.githubusercontent.com/aadhib/multixion-website/0f71ca208deefbaead75ac6617a21c0c8c289ac4/public/assets/img/meta_image.png",
-                hre: "https://raw.githubusercontent.com/aadhib/multixion-website/0f71ca208deefbaead75ac6617a21c0c8c289ac4/public/assets/img/meta_image.png",
+                href: "https://raw.githubusercontent.com/aadhib/multixion-website/0f71ca208deefbaead75ac6617a21c0c8c289ac4/public/assets/img/meta_image.png",
             },
         ],
     },
