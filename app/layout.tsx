@@ -35,8 +35,25 @@ const unbounded = Unbounded({
 })
 
 export const metadata: Metadata = {
+    icons: {
+        icon: [
+          {
+            url: "/assets/favicon.ico",
+            href: "/assets/favicon.ico",
+          },
+        ],
+      },
     title: "Multixion",
     description: "Your One-Stop Solution for Seamless Success: From Initial Registration to Digital Excellence!",
+    // openGraph: {
+    //     images: [
+    //         {
+    //             url: "/assets/img/meta-image.png",
+    //             hre: "/assets/img/meta-image.png",
+    //         },
+    //     ],
+    // },
+    
 }
 
 export default function RootLayout({
