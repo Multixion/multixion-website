@@ -44,18 +44,13 @@ export default function Header({ scroll, handleMobileMenu, isOffcanvasMenu, hand
                         </div >
                     </div >
                 </div >
+
                 {/* Mobile Menu  */}
                 < div className="tgmobile__menu" >
                     <nav className="tgmobile__menu-box">
                         <div className="close-btn" onClick={handleMobileMenu}><i className="fas fa-times" /></div>
                         <div className="nav-logo">
                             <Link href="/"><img src="/assets/img/logo/logo-white.svg" alt="Logo" /></Link>
-                        </div>
-                        <div className="tgmobile__search">
-                            <form action="#">
-                                <input type="text" id='searchbar' placeholder="Search here..." />
-                                <button><i className="fas fa-search" /></button>
-                            </form>
                         </div>
                         <div className="tgmobile__menu-outer">
                             <MobileMenu />
@@ -73,7 +68,6 @@ export default function Header({ scroll, handleMobileMenu, isOffcanvasMenu, hand
                                     <li><Link href="https://twitter.com/multixion" target="_blank"><i className="fab fa-twitter" /></Link></li>
                                     <li><Link href="https://api.whatsapp.com/send?phone=966575741941&text=Hi,%20We%20are%20interested%20in%20your%20services" target="_blank"><i className="fab fa-whatsapp" /></Link></li>
                                     <li><Link href="https://www.instagram.com/multixion" target="_blank"><i className="fab fa-instagram" /></Link></li>
-                                    {/* <li><Link href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube" /></Link> </li> */}
                                 </ul>
                             </div>
                         </div>
