@@ -14,13 +14,10 @@ export default function Service() {
                     <section className="service-area-2 pt-120 pb-120">
                         <div className="container">
                             <div className="row gx-30 gy-30">
-                                {services.map(({ id, name, path, cardContent, cardImage }) => {
+                                {services.map(({ id, name, path, cardContent }) => {
                                     return (
                                         <div key={id} className="col-xl-4 col-md-6">
                                             <div className="service-card style2">
-                                                <div className="service-card-img">
-                                                    <img src={"/assets/img/service/" + cardImage} alt="img" />
-                                                </div>
                                                 <h5 className="service-card-number">{id}</h5>
                                                 <h4 className="service-card-title"><Link href={cardContent}>{name}</Link></h4>
                                                 <p className="service-card-text">{cardContent}</p>
